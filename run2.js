@@ -1,7 +1,2 @@
-
-function openWindow(url) {
-  var openedWindow = window.open(url, "self", "toolbars=yes")
-  openedWindow.document.body.innerHTML = '<h1>"test"</h1>'
-}
-
-openWindow('https://chrome.google.com/webstorex')
+var window = window.open('https://www.google.com', 'MsgWindow', 'scrollbars=yes')
+window.document.write("<h1>this is a test</h1>")
